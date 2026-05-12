@@ -29,14 +29,5 @@
     --shadow-sm: 0 1px 2px 0 rgb(0 0 0 / 0.05);
     --shadow-md: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
     --shadow-lg: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
-
-    /* Aliases legacy para compatibilidad con App.css */
-    --accent:        rgb(var(--rgb-brand-blue));
-    --accent-bg:     rgb(var(--rgb-white));
-    --accent-border: rgb(var(--rgb-neutral-300));
-    --border:        rgb(var(--rgb-neutral-200));
-    --text-h:        rgb(var(--rgb-neutral-900));
-    --social-bg:     rgb(var(--rgb-white));
-    --shadow:        var(--shadow-md);
   }
 }
