@@ -1,0 +1,42 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    /* Primitivos RGB — valores Slate, naming neutral (R G B sin comas ni #) */
+    --rgb-white:        255 255 255;
+    --rgb-neutral-50:   248 250 252;   /* slate-50  — fondo app    */
+    --rgb-neutral-100:  241 245 249;   /* slate-100                */
+    --rgb-neutral-200:  226 232 240;   /* slate-200 — borde sutil  */
+    --rgb-neutral-300:  203 213 225;   /* slate-300 — borde normal */
+    --rgb-neutral-400:  148 163 184;   /* slate-400 — borde fuerte */
+    --rgb-neutral-500:  100 116 139;   /* slate-500 — texto terciario */
+    --rgb-neutral-600:   71  85 105;   /* slate-600 — texto secundario */
+    --rgb-neutral-700:   51  65  85;   /* slate-700                */
+    --rgb-neutral-800:   30  41  59;   /* slate-800                */
+    --rgb-neutral-900:   15  23  42;   /* slate-900 — texto principal */
+
+    --rgb-brand-blue:   59 130 246;    /* blue-500  */
+    --rgb-brand-indigo: 99 102 241;    /* indigo-500 */
+
+    --rgb-success:  16 185 129;        /* emerald-500 */
+    --rgb-warning: 245 158  11;        /* amber-500   */
+    --rgb-error:   239  68  68;        /* red-500     */
+    --rgb-info:     14 165 233;        /* sky-500     */
+
+    /* Sombras */
+    --shadow-sm: 0 1px 2px 0 rgb(0 0 0 / 0.05);
+    --shadow-md: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+    --shadow-lg: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
+
+    /* Aliases legacy para compatibilidad con App.css */
+    --accent:        rgb(var(--rgb-brand-blue));
+    --accent-bg:     rgb(var(--rgb-white));
+    --accent-border: rgb(var(--rgb-neutral-300));
+    --border:        rgb(var(--rgb-neutral-200));
+    --text-h:        rgb(var(--rgb-neutral-900));
+    --social-bg:     rgb(var(--rgb-white));
+    --shadow:        var(--shadow-md);
+  }
+}
